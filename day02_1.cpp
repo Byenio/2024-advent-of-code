@@ -53,12 +53,9 @@ int day02_1(const std::string &file_path)
         std::vector<int> levels;
         int level;
 
-        while (iss >> level)
-        {
-            levels.push_back(level);
-        }
+        while (iss >> level) levels.push_back(level);
 
-        is_safe(levels) ? counter++ : 0;
+        if (is_safe(levels)) counter++;
     }
 
     file.close();

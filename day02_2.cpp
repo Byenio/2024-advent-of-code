@@ -23,7 +23,7 @@ bool is_ascending(const std::vector<int> &levels)
     return ascending_count > descending_count;
 }
 
-bool is_safe(std::vector<int> &levels, const bool dampened = false)
+bool is_safe(const std::vector<int> &levels, const bool dampened = false)
 {
     const bool globally_ascending = is_ascending(levels);
 
@@ -42,13 +42,13 @@ bool is_safe(std::vector<int> &levels, const bool dampened = false)
             {
                 if (!dampened)
                 {
-                    std::vector<int> temp_levels_1 = levels;
-                    std::vector<int> temp_levels_2 = levels;
+                    std::vector<int> dampened_levels_1 = levels;
+                    std::vector<int> dampened_levels_2 = levels;
 
-                    temp_levels_1.erase(temp_levels_1.begin() + i + 1);
-                    temp_levels_2.erase(temp_levels_2.begin() + i);
+                    dampened_levels_1.erase(dampened_levels_1.begin() + i + 1);
+                    dampened_levels_2.erase(dampened_levels_2.begin() + i);
 
-                    return is_safe(temp_levels_1, true) || is_safe(temp_levels_2, true);
+                    return is_safe(dampened_levels_1, true) || is_safe(dampened_levels_2, true);
                 }
 
                 return false;
