@@ -1,9 +1,9 @@
 #include <iostream>
-#include "include/day02_2.h"
+#include "include/day03_2.h"
 
 int main()
 {
-    const int res = day02_2("F:/CLion/2024_advent_of_code/include/day02.txt");
+    const int res = day03_2("F:/CLion/2024_advent_of_code/include/day03.txt");
     std::cout << res << std::endl;
 
     return 0;

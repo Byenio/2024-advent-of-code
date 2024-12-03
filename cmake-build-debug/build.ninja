@@ -79,6 +79,18 @@ build CMakeFiles/2024_advent_of_code.dir/day02_2.cpp.obj: CXX_COMPILER__2024_adv
   OBJECT_DIR = CMakeFiles\2024_advent_of_code.dir
   OBJECT_FILE_DIR = CMakeFiles\2024_advent_of_code.dir
 
+build CMakeFiles/2024_advent_of_code.dir/day03_1.cpp.obj: CXX_COMPILER__2024_advent_of_code_unscanned_Debug F$:/CLion/2024_advent_of_code/day03_1.cpp || cmake_object_order_depends_target_2024_advent_of_code
+  DEP_FILE = CMakeFiles\2024_advent_of_code.dir\day03_1.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2024_advent_of_code.dir
+  OBJECT_FILE_DIR = CMakeFiles\2024_advent_of_code.dir
+
+build CMakeFiles/2024_advent_of_code.dir/day03_2.cpp.obj: CXX_COMPILER__2024_advent_of_code_unscanned_Debug F$:/CLion/2024_advent_of_code/day03_2.cpp || cmake_object_order_depends_target_2024_advent_of_code
+  DEP_FILE = CMakeFiles\2024_advent_of_code.dir\day03_2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2024_advent_of_code.dir
+  OBJECT_FILE_DIR = CMakeFiles\2024_advent_of_code.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 2024_advent_of_code
@@ -87,7 +99,7 @@ build CMakeFiles/2024_advent_of_code.dir/day02_2.cpp.obj: CXX_COMPILER__2024_adv
 #############################################
 # Link the executable 2024_advent_of_code.exe
 
-build 2024_advent_of_code.exe: CXX_EXECUTABLE_LINKER__2024_advent_of_code_Debug CMakeFiles/2024_advent_of_code.dir/main.cpp.obj CMakeFiles/2024_advent_of_code.dir/day01_1.cpp.obj CMakeFiles/2024_advent_of_code.dir/day01_2.cpp.obj CMakeFiles/2024_advent_of_code.dir/day02_1.cpp.obj CMakeFiles/2024_advent_of_code.dir/day02_2.cpp.obj
+build 2024_advent_of_code.exe: CXX_EXECUTABLE_LINKER__2024_advent_of_code_Debug CMakeFiles/2024_advent_of_code.dir/main.cpp.obj CMakeFiles/2024_advent_of_code.dir/day01_1.cpp.obj CMakeFiles/2024_advent_of_code.dir/day01_2.cpp.obj CMakeFiles/2024_advent_of_code.dir/day02_1.cpp.obj CMakeFiles/2024_advent_of_code.dir/day02_2.cpp.obj CMakeFiles/2024_advent_of_code.dir/day03_1.cpp.obj CMakeFiles/2024_advent_of_code.dir/day03_2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\2024_advent_of_code.dir
